@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "name": "Rendang",
+    "category": 1,
+    "price": 10000,
+    "description": "merupakan hidangan daging sapi memiliki cita rasa yang gurih dan sedikit pedas.",
+    "image": "rendang.jpg",
+    "bestseller": 1
+    
+  },
+  {
+    "id": 2,
+    "name": "Dendeng Balado",
+    "category": 1,
+    "price": 10000,
+    "description": "merupakan sajian khas Padang berupa irisan tipis daging sapi yang digoreng garing, lalu diberi bumbu balado.",
+    "image": "dendeng.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 3,
+    "name": "Ayam Pop",
+    "category": 1,
+    "price": 10000,
+    "description": "masakan berbahan dasar daging ayam yang memiliki ciri khas warna yang putih pucat dengan tekstur sedikit renyah, tetapi dagingnya tetap lembut dan beraroma.",
+    "image": "ayampop.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 4,
+    "name": "Telur Dadar Barendo",
+    "category": 1,
+    "price": 10000,
+    "description": "elur dadar Padang yang dogoreng hingga krispi dan memiliki cita rasa yang gurih",
+    "image": "telur.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 5,
+    "name": "Gulai Ayam",
+    "category": 1,
+    "price": 10000,
+    "description": "elur dadar Padang yang dogoreng hingga krispi dan memiliki cita rasa yang gurih.",
+    "image": "gulai.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 6,
+    "name": "Gulai Tunjang",
+    "category": 1,
+    "price": 10000,
+    "description": "Olahan telur yang dimasak menggunakan sambal balodo yang memiliki cita rasa gurih, sedap, manis, pedas..",
+    "image": "tunjang.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 7,
+    "name": "Ayam Goreng Lengkuas",
+    "category": 1,
+    "price": 10000,
+    "description": "olahan ayam goreng yang memiliki ciri khas yakni bumbunya yang terbuat dari lengkuas parut.",
+    "image": "ayamgoreng.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 8,
+    "name": "Perkedel",
+    "category": 1,
+    "price": 10000,
+    "description": "makanan yang terbuat dari bahan dasar kentang yang dihaluskan lalu dicampur dengan bahan-bahan lainnya lalu dibaluri oleh telur.",
+    "image": "perkedel.jpg"
+    ,
+    "bestseller": 1
+  },
+  {
+    "id": 9,
+    "name": "Kerupuk Jangek",
+    "category": 1,
+    "price": 10000,
+    "description": "kerupuk kulit sapi yang disiram dengan kuah gulai..",
+    "image": "krupuk.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Gulai Tambusu",
+    "category": 1,
+    "price": 10000,
+    "description": "merupakan usus sapi yang diberi isian tahu dan telur, kemudian dimasak dengan kuah santan berbumbu.",
+    "image": "tambusu.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Telur Balado",
+    "category": 1,
+    "price": 10000,
+    "description": "olahan telur yang dimasak menggunakan sambal balodo yang memiliki cita rasa gurih, sedap, manis, pedas.",
+    "image": "telurbalado.jpg"
+  }
+  ,
+  {
+    "id": 13,
+    "name": "Balado Udang Petai",
+    "category": 1,
+    "price": 10000,
+    "description": "merupakan hidangan udang yang dipadukan dengan sambal balado dan ditambah dengan petai.",
+    "image": "udang.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Alpukat",
+    "category": 3,
+    "price": 10000,
+    "description": "",
+    "image": "alpukat.jpg"
+  },
+  {
+    "id": 15,
+    "name": "strawberry",
+    "category": 3,
+    "price": 10000,
+    "description": "",
+    "image": "strawberry.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Sayur Nangka",
+    "category": 2,
+    "price": 10000,
+    "description": "Gado-gado adalah salad sayuran dengan bumbu kacang.",
+    "image": "nangka.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Es Campur",
+    "category": 3,
+    "price": 10000,
+    "description": "",
+    "image": "escampur.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Sirsak",
+    "category": 3,
+    "price": 10000,
+    "description": "",
+    "image": "sirsak.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Es Teh",
+    "category": 3,
+    "price": 10000,
+    "description": "",
+    "image": "esteh.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Sayur Daun Singkong",
+    "category": 2,
+    "price": 10000,
+    "description": "kukusan daun singkong.",
+    "image": "singkong.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Sambal Ijo",
+    "category": 2,
+    "price": 10000,
+    "description": "Cabai hijau, bawang, tomat, dan garam yang dihaluskan lalu ditumis untuk menghiilangkan bau langu",
+    "image": "sambal.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Terong Balado",
+    "category": 1,
+    "price": 10000,
+    "description": "terong dimasak dengan bumbu cabai merah balado yang .",
+    "image": "terong.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Jus Mangga",
+    "category": 3,
+    "price": 10000,
+    "description": "",
+    "image": "mangga.jpg"
+  }
+]
