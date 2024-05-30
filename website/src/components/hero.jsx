@@ -1,4 +1,6 @@
 import React from "react";
+import nasiPadangImage from "../assets/nasipadang.jpg"
+
 
 export default function Hero() {
   return (
@@ -15,7 +17,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex justify-center">
-          <p>Nasi Padang Image</p>
+          <img src={nasiPadangImage} alt="" className="rounded-full" />
         </div>
       </div>
     </div>

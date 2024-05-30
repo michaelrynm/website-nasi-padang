@@ -8,6 +8,7 @@ import Menu from "../pages/menu";
 import About from "../pages/about";
 import Order from "../pages/order";
 import Test from "../pages/test";
+import Summary from "../pages/summary";
 
 export default function Router() {
   const router = createBrowserRouter([
@@ -31,6 +32,10 @@ export default function Router() {
       path: "/order",
       element: <Order />
     },
+    {
+      path: "/order-summary",
+      element: <Summary />
+    }
   ]);
   return <RouterProvider router={router} />;
 }

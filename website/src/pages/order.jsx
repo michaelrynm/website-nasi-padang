@@ -1,12 +1,39 @@
 import React, { useState } from "react";
 import Layout from "../components/layout";
 import foodImage from "../assets/food.jpg";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Order() {
   const location = useLocation();
   const { title, description, price, image } = location.state;
   const [selectedRadio, setSelectedRadio] = useState("takeaway");
+  const [name, setName] = useState("");
+  const [tableNumber, setTableNumber] = useState("");
+
+  const navigate = useNavigate();
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleTableNumber = (e) => {
+    setTableNumber(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/order-summary", {
+      state: {
+        title,
+        description,
+        price,
+        image,
+        selectedRadio,
+        name,
+        tableNumber,
+      },
+    });
+  };
 
   const handleRadio = (value) => {
     setSelectedRadio(value);
@@ -25,7 +52,11 @@ export default function Order() {
           <div className="flex justify-center">
             <div className="flex justify-center p-5 bg-white w-1/2 gap-10">
               <div>
-                <img src={`https://ik.imagekit.io/b88h8bgjc/${image}`} alt="" className="w-80" />
+                <img
+                  src={`https://ik.imagekit.io/b88h8bgjc/${image}`}
+                  alt=""
+                  className="w-80"
+                />
               </div>
               <div>
                 <p className="font-medium text-xl">{title}</p>
@@ -44,6 +75,7 @@ export default function Order() {
           </div>
         </div>
 
+<form action={handleSubmit}>
         <div className="flex justify-center mt-5 mb-10">
           <div className="w-1/2 bg-white p-5">
             <div>
@@ -54,11 +86,15 @@ export default function Order() {
                 type="text"
                 placeholder="Name"
                 className="input input-bordered w-full max-w-xs"
+                required
+                onChange={handleNameChange}
               />
               <input
-                type="text"
+                type="number"
                 placeholder="Table Number"
                 className="input input-bordered w-full max-w-xs"
+                onChange={handleTableNumber}
+                required
               />
               <div>
                 <div className="grid grid-cols-2 mb-3">
@@ -81,11 +117,17 @@ export default function Order() {
                 </div>
               </div>
               <div>
-                <button className="btn btn-sm bg-yellow-300 hover:bg-yellow-300">Submit Order!</button>
+                <button
+                  className="btn btn-sm bg-yellow-300 hover:bg-yellow-300"
+                  onClick={handleSubmit}
+                >
+                  Submit Order!
+                </button>
               </div>
             </div>
           </div>
         </div>
+        </form>
       </Layout>
     </div>
   );

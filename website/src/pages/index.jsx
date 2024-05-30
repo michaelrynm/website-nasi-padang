@@ -11,6 +11,7 @@ import Data from "../utils/api.json";
 export default function Index() {
   const filteredData = Data.filter((item) => item.bestseller === 1);
 
+
   return (
     <div>
       <Layout>
