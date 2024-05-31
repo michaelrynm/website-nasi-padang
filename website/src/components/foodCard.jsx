@@ -4,7 +4,7 @@ export default function FoodCard(props) {
   const { title, description, image } = props;
   return (
     <div>
-      <div className="card card-compact w-96 h-80 bg-base-100 shadow-xl">
+      <div className="card card-compact w-80 h-80 2xl:w-96 2xl:h-80 bg-base-100 shadow-xl">
         <figure>
           <img
             src={`https://ik.imagekit.io/b88h8bgjc/${image}`}

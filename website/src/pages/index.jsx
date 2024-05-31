@@ -37,7 +37,7 @@ export default function Index() {
           <div className="flex justify-center">
             <p className="font-bold text-4xl">Explore our best seller menu</p>
           </div>
-          <div className="grid grid-cols-4 gap-y-8 place-items-center ps-24 pe-24 pt-10 pb-24">
+          <div className="grid grid-cols-3 2xl:grid-cols-4 gap-y-8 place-items-center ps-24 pe-24 pt-10 pb-24">
             {filteredData.map((data) => (
               <FoodCard
                 title={data.name}

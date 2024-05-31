@@ -29,7 +29,7 @@ export default function Menu() {
               role="tabpanel"
               className="tab-content bg-base-100 border-base-300 rounded-box p-6"
             >
-              <div className="grid grid-cols-4 place-items-center gap-y-7">
+              <div className="grid grid-cols-3 2xl:grid-cols-4 place-items-center gap-y-7">
                 {Data.map((data) => (
                   <CardMenu
                     image={data.image}
