@@ -10,10 +10,8 @@ export default function Hero() {
           <p className="font-bold text-7xl">
             Enjoy Your <br /> Delicious Food!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            cumque numquam consectetur distinctio velit facere culpa, harum
-            officia at dolorem.
+          <p className="text-2xl mt-2 font-medium">
+           Segala jenis Masakan Khas Padang
           </p>
         </div>
         <div className="flex justify-center">
